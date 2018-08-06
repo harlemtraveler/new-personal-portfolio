@@ -16,10 +16,18 @@ class SideMenu extends Component {
         <div className="tabs-container">
           <nav>
             <ul>
-              <li className="menu-item">Work</li>
-              <li className="menu-item">Blog</li>
-              <li className="menu-item">About</li>
-              <li className="menu-item">Contact</li>
+              <li className="menu-item">
+                <a href="/work">WORK</a>
+              </li>
+              <li className="menu-item">
+                <a href="/blog">BLOG</a>
+              </li>
+              <li className="menu-item">
+                <a href="/about">ABOUT</a>
+              </li>
+              <li className="menu-item">
+                <a href="/contact">CONTACT</a>
+              </li>
             </ul>
           </nav>
         </div>
